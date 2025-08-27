@@ -19,13 +19,13 @@ I also applied a structured testing methodology called **CANDO-Test**. This modu
 
 ## 📁 Project Documentation
 
-| File Name                                                | Description                                                                                                 |
-| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [📄 FRS – Functional Requirements](docs/FRS.md)          | Outlines both functional and non-functional requirements for Swag Labs, including expected system behavior. |
-| [📝 Test Plan](docs/TestPlan.md)                         | Defines the testing strategy, objectives, scope, schedule, and resources for validating Swag Labs features. |
-| [✅ Test Scenarios](docs/TEST_SCENARIOS.md)              | High-level user flows and conditions to be validated through automated and manual testing.                  |
-| [🧪 Test Cases](docs/TEST_CASES.md)                      | Detailed test cases including steps, input data, expected results, and actual outcomes.                     |
-| [📐 RTM – Requirements Traceability Matrix](docs/RTM.md) | Maps each requirement to its corresponding test scenarios and test cases for full QA coverage.              |
+| File Name                                                  | Description                                                                                                 |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [📄 FRS – Functional Requirements](./docs/frs.md)          | Outlines both functional and non-functional requirements for Swag Labs, including expected system behavior. |
+| [📝 Test Plan](./docs/testPlan.md)                         | Defines the testing strategy, objectives, scope, schedule, and resources for validating Swag Labs features. |
+| [✅ Test Scenarios](./docs/testScenarios.md)               | High-level user flows and conditions to be validated through automated and manual testing.                  |
+| [🧪 Test Cases](./docs/testCases.md)                       | Detailed test cases including steps, input data, expected results, and actual outcomes.                     |
+| [📐 RTM – Requirements Traceability Matrix](./docs/rtm.md) | Maps each requirement to its corresponding test scenarios and test cases for full QA coverage.              |
 
 ---
 
