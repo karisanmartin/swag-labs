@@ -87,13 +87,20 @@ This test plan defines the strategy, scope, and approach for validating the Swag
 
 ## 9. Deliverables
 
-- Automated test scripts (`assessments/`)
-- Test report (`playwright-report/`)
+- Automated test scripts
+
+    - assessments
+    - components
+    - data Variant creator
+    - pages
+    - builders
+    - utils
+
 - Documentation:
-    - `README.md`
-    - `FRS.md`
-    - `RTM.md`
-    - `test-plan.md`
-    - `test-cases.md`
-    - `test-scenarios.md`
-    - `test-execution.md`
+    - `FRS`
+    - `RTM`
+    - `test-plan`
+    - `test-cases`
+    - `test-scenarios`
+    - `Test Execution report` (`playwright-report/`)
+    - `Execution Video (MP4)`
