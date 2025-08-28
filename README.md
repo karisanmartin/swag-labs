@@ -27,6 +27,11 @@ I also applied a structured testing methodology called **CANDO-Test**. This modu
 | [🧪 Test Cases](./docs/testCases.md)                       | Detailed test cases including steps, input data, expected results, and actual outcomes.                     |
 | [📐 RTM – Requirements Traceability Matrix](./docs/rtm.md) | Maps each requirement to its corresponding test scenarios and test cases for full QA coverage.              |
 
+## 🎥 Test Execution Evidence
+
+- [📄 PDF Report](./docs/testExecutionReport.pdf)
+- [🎬 Execution Video (MP4)](./docs/testRunDemo.gif)
+
 ---
 
 ## ✅ Project Highlights
@@ -59,6 +64,26 @@ This project follows the **CANDO-Test** methodology — a modular framework for 
 The testing methodology used in this project is based on **CANDO-Test**, a modular framework for structured UI test automation. It emphasizes clarity, reusability, and separation of concerns across components, assessments, data variants, and page objects.
 
 You can learn more about the CANDO-Test framework on [Max Martínez’s official article](https://maxmartinez.dev/introducing-cando-test-a-framework-for-structured-ui-test-automation).
+
+---
+
+## 🚧 Project Status: In Continuous Development
+
+This first version of the **Swag Labs QA Project** includes:
+
+- Functional documentation and test planning
+- Automated test execution using Playwright
+- Full traceability through RTM and scenario-based testing
+
+The project is not yet finalized. The next phase will focus on **bug analysis and reporting**, including exploratory and regression testing. This will be developed in separate branches to simulate real-world QA workflows.
+
+> 🧭 **Coming Soon:**
+>
+> - Bug documentation with evidence and analysis
+> - Simulated defect lifecycle and reporting flow
+> - Regression testing and refactor strategies
+
+This roadmap reflects my commitment to continuous learning and professional growth as a QA Engineer.
 
 ## 🤝 Collaboration Note
 
