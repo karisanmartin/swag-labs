@@ -103,4 +103,4 @@ This test plan defines the strategy, scope, and approach for validating the Swag
     - `test-cases`
     - `test-scenarios`
     - `Test Execution report` (`playwright-report/`)
-    - `Execution Video (MP4)`
+    - `Execution Video (gif file)`

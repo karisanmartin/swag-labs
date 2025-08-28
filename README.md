@@ -30,7 +30,7 @@ I also applied a structured testing methodology called **CANDO-Test**. This modu
 ## 🎥 Test Execution Evidence
 
 - [📄 PDF Report](./docs/testExecutionReport.pdf)
-- [🎬 Execution Video (MP4)](./docs/testRunDemo.mp4)
+- [🎬 Execution Video (MP4)](./docs/testRunDemo.gif)
 
 ---
 
