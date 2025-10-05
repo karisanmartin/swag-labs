@@ -1,0 +1,16 @@
+name: Run Playwright Tests
+
+on:
+    push:
+        branches:
+            - main
+            - feature/github-action
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: Install dependencies
+              run: npm install
+            - name: Run Playwright tests
+              run: npx playwright test
