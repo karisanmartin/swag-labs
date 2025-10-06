@@ -10,7 +10,7 @@ on:
     workflow_dispatch:
         inputs:
             testTarget:
-                description: "¿Qué parte quieres testear?"
+                description: "Swab labs test"
                 required: false
                 default: "Full suite"
 
@@ -25,3 +25,9 @@ jobs:
               run: npx playwright install --with-deps
             - name: Run Playwright tests
               run: npx playwright test
+            - name: Upload Playwright HTML report
+              if: always()
+              uses: actions/upload-artifact@v3
+              with:
+                  name: playwright-report
+                  path: playwright-report
