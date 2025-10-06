@@ -1,4 +1,4 @@
-import { CheckoutCompletePage } from "../pages/CheckoutComplete.page";
+import { CheckoutCompletePage } from "../pages/checkout-complete.page";
 import { Page } from "@playwright/test";
 
 export class CheckoutCompleteBuilder {

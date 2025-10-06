@@ -2,7 +2,7 @@ import { Page } from "@playwright/test";
 import {
     CheckoutStepOneInfoComponent,
     YourInformation,
-} from "../components/CheckoutOne.components";
+} from "../components/checkoutOne.components";
 import { CheckoutOnePage } from "../pages/checkoutOne.page";
 
 export class CheckoutOneBuilder {
