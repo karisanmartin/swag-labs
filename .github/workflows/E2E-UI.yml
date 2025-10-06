@@ -1,9 +1,6 @@
 name: Run Playwright Tests
 
 on:
-    push:
-        branches:
-            - feature/github-action
     pull_request:
         branches:
             - main
