@@ -7,8 +7,12 @@ export class LoginDataVariantCreator {
         overrides?: Partial<LoginForm>,
     ): LoginForm {
         return {
-            userName: "standard_user",
-            password: "secret_sauce",
+            /*
+            It suppresses potential compile-time errors in scenarios where you, the developer, are certain the value will be present at runtime, but 
+            the compiler cannot infer this certainty through its control flow analysis.
+            */
+            userName: process.env.SWAG_USER!,
+            password: process.env.SWAG_PASS!,
 
             ...overrides,
         };
@@ -39,8 +43,8 @@ export class LoginDataVariantCreator {
 
     createLockedOutUser(): LoginForm {
         return this.createBaseLoginDataVariant({
-            userName: "locked_out_user",
-            password: "secret_sauce",
+            userName: process.env.SWAG_LOCKED_OUT_USER!,
+            password: process.env.SWAG_LOCKED_OUT_PASSWORD!,
         });
     }
 }

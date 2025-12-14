@@ -21,6 +21,11 @@ jobs:
             - name: Install Playwright browsers
               run: npx playwright install --with-deps
             - name: Run Playwright tests
+              env:
+                  SWAG_USER: ${{ secrets.SWAG_USER }}
+                  SWAG_PASS: ${{ secrets.SWAG_PASS }}
+                  SWAG_LOCKED_OUT_USER: ${{ secrets.SWAG_LOCKED_OUT_USER }}
+                  SWAG_LOCKED_OUT_PASSWORD: ${{ secrets.SWAG_LOCKED_OUT_PASSWORD }}
               run: npx playwright test
             - name: Upload Playwright HTML report
               if: always()
