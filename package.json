@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "test:ci": "playwright test --reporter=html"
+        "test:ci": "playwright test --reporter=html",
+        "test:local": "cross-env NODE_ENV=local playwright test"
     },
     "keywords": [],
     "author": "",
@@ -13,9 +14,8 @@
         "@faker-js/faker": "^9.8.0",
         "@playwright/test": "^1.52.0",
         "@types/node": "^22.14.1",
+        "cross-env": "^10.1.0",
+        "dotenv": "^17.2.3",
         "prettier": "^3.5.3"
-    },
-    "dependencies": {
-        "dotenv": "^17.2.3"
     }
 }
