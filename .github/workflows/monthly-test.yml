@@ -1,11 +1,9 @@
-name: Nightly Swag Labs tests
+name: Monthly Swag Labs tests
 
 on:
     schedule:
-        # 23:00 NZDT/NZST → 10:00 UTC (NZDT) y 11:00 UTC (NZST)
-        - cron: "0 10 * * *"
-        - cron: "0 11 * * *"
-    workflow_dispatch: {} # Permite lanzarlo manualmente
+        - cron: "0 10 1 * *"
+    workflow_dispatch: {}
 
 jobs:
     e2e:
