@@ -1,6 +1,6 @@
 # 🧪 Test Plan Swab-Lab Automation
 
-Automated testing for the **Swab Lab** platform, developed as part of my professional transition into QA Engineering. This project includes functional and integration tests using **Playwright** and **TypeScript**, focused on validating key user flows and traceability.
+Automated testing for the **Swab Lab** platform. This project includes functional and integration tests using **Playwright** and **TypeScript**, focused on validating key user flows and traceability.
 
 I also applied a structured testing methodology called **CANDO-Test**. This modular framework provides a clear and scalable approach to designing and executing automated tests, especially for web applications.
 
